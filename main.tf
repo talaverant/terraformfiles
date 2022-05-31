@@ -4,7 +4,7 @@ terraform {
 
 variable "subject" {
    type = string
-   default = "Mundo"
+   default = "gente de Spain Clouds"
    description = "Subject to hello"
 }
 
