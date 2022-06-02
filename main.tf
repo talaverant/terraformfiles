@@ -4,10 +4,10 @@ terraform {
 
 variable "subject" {
    type = string
-   default = "Spain Clouds, buenos dias!!!"
+   default = "World!!!"
    description = "Subject to hello"
 }
 
 output "hello_world" {
-  value = "Hola, ${var.subject}!"
+  value = "Hello, ${var.subject}!"
 }
