@@ -1,3 +1,15 @@
+variable "region" {
+  description = "The AWS region to deploy to"
+}
+
+variable "access_key" { 
+  description = "The AWS access key"
+}
+
+variable "secret_key" {
+  description = "AWS secret key"
+}
+
 variable "vpc_cidr" {
   description = "The whole subnet allocated to this aws region VPC"
   type        = string
