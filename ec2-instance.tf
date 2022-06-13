@@ -38,7 +38,7 @@ resource "aws_security_group" "tf-controller-ec2-instance-demo-sg" {
 }
 
 
-resource "aws_instance" "tf-controller-ec2-instance-demo-instance-test" {
+resource "aws_instance" "tf-controller-ec2-instance-demo-instance" {
   ami                    = data.aws_ami.ubuntu-2004-ami.id
   instance_type          = "t2.micro"
   subnet_id              = module.vpc.public_subnets[0]
