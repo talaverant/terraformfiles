@@ -5,7 +5,7 @@ Contains all the tf files for the deployment via gitops
 
 You will need the following to run this succcessfully:
 
-AWS Credentials as Administrator Access on the CX AWS account (All CX SAs and CREs have this access).
+AWS Credentials as Administrator Access or with enough programmatic access to create the AWS resouces defined in the TF files.
 An SSH public Key to be used as a deployment key for the ec2 instance
 
 These need to be set as environment variables as follows:
